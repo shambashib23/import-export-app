@@ -1,0 +1,11 @@
+module.exports.Token = require('./token.model');
+module.exports.User = require('./user.model');
+module.exports.Load = require('./load.model');
+module.exports.Review = require('./review.model');
+module.exports.Privacy = require('./cms/privacy.model');
+module.exports.Terms = require('./cms/terms.model');
+module.exports.Admin = require('./admin.model');
+module.exports.Filter = require('./filters.model');
+module.exports.Payment = require('./payment.request.model');
+module.exports.PaymentResponse = require('./payment.response.model');
+module.exports.McChecker = require('./mc.model');
